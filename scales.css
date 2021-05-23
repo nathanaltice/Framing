@@ -1,0 +1,4 @@
+#gameView {
+    border: 5px solid red;
+    height: 100vh; /* vh = viewport height */
+}
