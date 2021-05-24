@@ -1,4 +1,9 @@
+body {
+    overflow-y: hidden; /* Hides vertical scollbar */
+    background-color: #FACADE;
+}
+
 #gameView {
-    border: 5px solid red;
-    height: 100vh; /* vh = viewport height */
+    border: 0px solid red;
+    min-height: 100vh; /* ie, 100 viewport height units */
 }

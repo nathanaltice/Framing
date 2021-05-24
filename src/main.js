@@ -18,6 +18,8 @@ let config = {
         //mode: Phaser.Scale.WIDTH_CONTROLS_HEIGHT,
         //mode: Phaser.Scale.HEIGHT_CONTROLS_WIDTH,
         //mode: Phaser.Scale.RESIZE,
+        //autoCenter: Phaser.Scale.HORIZONTALLY
+        //autoCenter: Phaser.Scale.VERTICALLY
         //autoCenter: Phaser.Scale.CENTER_BOTH
     },
     scene: [ Scales ]
