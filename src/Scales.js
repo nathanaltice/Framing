@@ -47,11 +47,11 @@ class Scales extends Phaser.Scene {
 
         // detect orientation change
         this.scale.on('orientationchange', (orientation) => {
-            if(orientation == Phaser.Scale.PORTRAIT) {
+            if(orientation === Phaser.Scale.PORTRAIT) {
                 this.msg.text = `Please don't play in PORTRAIT, you clown`
             } else if (orientation === Phaser.Scale.LANDSCAPE) {
                 this.msg.text = `Ah yes, back to landscape`
             }
-        });
+        })
     }
 }
