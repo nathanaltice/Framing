@@ -4,6 +4,6 @@ body {
 }
 
 #gameView {
-    border: 0px solid red;
+    /* border: 1px solid red; */
     min-height: 100vh; /* ie, 100 viewport height units */
 }
